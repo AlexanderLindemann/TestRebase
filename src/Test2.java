@@ -8,4 +8,8 @@ public class Test2 {
     public String getA() {
         return a;
     }
+
+    String testMethod(String a) {
+        return "add word: " + a;
+    }
 }
