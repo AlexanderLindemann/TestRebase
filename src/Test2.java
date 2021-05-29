@@ -10,6 +10,6 @@ public class Test2 {
     }
 
     String testMethod(String a) {
-        return "add word: " + a;
+        return a;
     }
 }
