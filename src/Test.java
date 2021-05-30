@@ -11,6 +11,8 @@ public class Test {
     public static void main(String[] args) throws InterruptedException {
         int a = Integer.parseInt(test2.testMethod(test2.getA()));
 
+        System.out.println("Hello");
+
         for (int i = 0; i < 20; i++) {
             System.out.println(i);
             Thread.sleep(1000);
