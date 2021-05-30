@@ -7,5 +7,6 @@ public class Test {
     public static void main(String[] args) {
         int a = Integer.parseInt(test2.testMethod(test2.getA()));
         System.out.println(a);
+        System.out.println("Hello everyone!");
     }
 }
