@@ -8,10 +8,12 @@ public class Test {
             .build();
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int a = Integer.parseInt(test2.testMethod(test2.getA()));
-        System.out.println(a);
-        System.out.println("Hello everyone!");
-        System.out.println();
+
+        for (int i = 0; i < 20; i++) {
+            System.out.println(i);
+            Thread.sleep(1000);
+        }
     }
 }
