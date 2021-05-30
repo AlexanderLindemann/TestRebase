@@ -25,6 +25,10 @@ public class Person {
         return weight;
     }
 
+    public static Builder newBuilder() {
+        return new Person().new Builder();
+    }
+
     public class Builder {
         private Builder() {
         }
@@ -47,6 +51,10 @@ public class Person {
         public Builder setWeight(int weight) {
             Person.this.weight = weight;
             return this;
+        }
+
+        public Person build() {
+            return Person.this;
         }
     }
 }
