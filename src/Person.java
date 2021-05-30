@@ -33,5 +33,20 @@ public class Person {
             Person.this.name = name;
             return this;
         }
+
+        public Builder setAge(int age) {
+            Person.this.age = age;
+            return this;
+        }
+
+        public Builder setSurname(String surname) {
+            Person.this.surname = surname;
+            return this;
+        }
+
+        public Builder setWeight(int weight) {
+            Person.this.weight = weight;
+            return this;
+        }
     }
 }
